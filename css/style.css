@@ -11,8 +11,6 @@ body {
 
 p {
   font-size: 0.938em;
-  color: #898989;
-  font-style: italic;
   line-height: 19px;
   margin: 0 0 20px 0;
 }
@@ -38,7 +36,6 @@ p {
   padding: 0 0 11px 0;
 }
 .title p {
-  text-transform: uppercase;
   color: black;
   line-height: 20px;
   font-size: 0.938em;
@@ -69,7 +66,6 @@ p {
   text-decoration: none;
   padding: 10px 40px;
   border: 3px solid #d8d6d6;
-  text-transform: uppercase;
   display: inline-block;
   -webkit-transition: all ease-in;
   -webkit-transition-delay: 0.3s;
@@ -83,6 +79,10 @@ p {
   color: #fff;
 }
 
+ul {
+  font-size: 0.938em;
+}
+
 ul.social {
   display: block;
 }
@@ -93,7 +93,6 @@ ul.social li {
 ul.social li a {
   text-decoration: none;
   color: #959494;
-  text-transform: uppercase;
   font-size: 0.813em;
   -webkit-transition: all ease-in;
   -webkit-transition-delay: 0.3s;
@@ -244,7 +243,6 @@ header nav ul {
   text-align: right;
 }
 header nav ul li {
-  text-transform: uppercase;
   font-weight: 600;
   font-size: 0.938em;
   color: black;
@@ -306,7 +304,6 @@ section.about .imageholder .text div {
 section.about .imageholder .text div span {
   display: table-cell;
   vertical-align: middle;
-  text-transform: uppercase;
   font-weight: 600;
 }
 section.about .sliderHolder {
@@ -409,8 +406,7 @@ section.team .slider .sliderholder {
   width: 100%;
   display: block;
 }
-section.team .slider .sliderholder .member h5 {
-  text-transform: uppercase;
+section.team .slider .sliderholder .member h5 
   color: black;
   line-height: 20px;
   font-size: 0.938em;
@@ -552,7 +548,6 @@ section.works ul li a figure .imgholder .hover .text {
   height: 100%;
   background: rgba(255, 255, 255, 0.7);
   display: table;
-  text-transform: uppercase;
 }
 section.works ul li a figure .imgholder .hover .text div {
   width: 100%;
@@ -648,17 +643,14 @@ section.testimonials .holder article span.circle {
   margin: 0 0 20px 0;
 }
 section.testimonials .holder article p {
-  text-transform: uppercase;
   color: black;
   line-height: 20px;
   font-size: 0.938em;
   word-spacing: 3px;
   margin: 0 0 20px 0;
-  font-style: normal;
+  font-style: italic;
 }
 section.testimonials .holder article h5 {
-  color: black;
-  text-transform: uppercase;
   color: black;
   font-size: 0.938em;
   margin: 0;
@@ -726,7 +718,6 @@ section.contact input[type="text"] {
   padding: 15px 20px;
   border: 0 none;
   outline: 0;
-  text-transform: uppercase;
   font-size: 0.813em;
   color: #959494;
   margin: 0 0 20px 0;
@@ -741,7 +732,6 @@ section.contact textarea {
   padding: 15px 20px;
   border: 0 none;
   outline: 0;
-  text-transform: uppercase;
   font-size: 0.813em;
   color: #959494;
   height: 160px;
@@ -760,7 +750,6 @@ section.contact input[type="submit"]:hover {
 section.contact ul {
   font-size: 0.813em;
   line-height: 17px;
-  text-transform: uppercase;
 }
 section.contact ul li {
   margin: 0 0 20px 0;
@@ -785,7 +774,6 @@ footer .copyright {
   display: block;
   text-align: right;
   color: #959494;
-  text-transform: uppercase;
   font-size: 0.813em;
   padding: 20px 0 0 0;
 }
@@ -808,12 +796,13 @@ footer .copyright {
   header nav ul {
     text-align: center;
   }
-  header.sticky img {
-    width: auto;
-  }
   header.sticky nav {
     padding: 24px 0 30px 0;
   }
+  header.sticky img {
+    width: auto;
+  }
+
   header.sticky .sep {
     display: block;
   }
